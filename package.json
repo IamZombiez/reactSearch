@@ -24,6 +24,7 @@
     "morgan": "^1.8.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
+    "react-router": "^4.1.1",
     "request": "^2.81.0"
   }
 }
