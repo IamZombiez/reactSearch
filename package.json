@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/IamZombiez/reactSearch/issues"
   },
-  "homepage": "https://github.com/IamZombiez/reactSearch#readme"
+  "homepage": "https://github.com/IamZombiez/reactSearch#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.5",
+    "morgan": "^1.8.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "request": "^2.81.0"
+  }
 }
