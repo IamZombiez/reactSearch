@@ -35,11 +35,14 @@ db.on("error", function(error) {
 });
 
 db.once("open", function() {
-  console.log("Mongoose connection successful.");
+  console.log("Mongoose Connection Successful.");
 });
 
-// Routes
-
+// // Routes
+// var routes = require("./app/config/htmlRoutes");
+app.get("/", function(req, res) {
+  res.sendFile(__dirname + "/public/index.html");
+});
 
 // Listen on port 3000
 app.listen(3000, function() {

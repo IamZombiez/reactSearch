@@ -10,7 +10,9 @@ var Main = React.createClass({
     return (
       <div className="container">
         <div className="row">
-          <div className="col s12">Test Header</div>
+          <div className="jumbotron">
+            <h1>Test Header</h1>
+          </div>
         </div>
       </div>
     );
