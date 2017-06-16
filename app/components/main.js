@@ -3,7 +3,7 @@ var React = require("react");
 // Including the Link component from React Router to navigate within our application without full page reloads
 var Link = require("react-router").Link;
 
-var Main = React.createClass({
+var Main = React.createElement({
 
   // Here we render the function
   render: function() {
@@ -16,14 +16,17 @@ var Main = React.createClass({
           <p><em>A journey through the whimsical world of React Routing</em></p>
           <hr />
           <p>
-            <Link to="/Search"><button className="btn btn-primary btn-lg">Search</button></Link>
             <Link to="/Saved"><button className="btn btn-danger btn-lg">Saved Articles</button></Link>
           </p>
         </div>
 
         <div className="row">
+          // Search
+        </div>
 
-          {/* This code will dump the correct Child Component */}
+        <div className="row">
+
+          // Results
           {this.props.children}
 
         </div>
